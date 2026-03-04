@@ -1,8 +1,18 @@
-# Vercel Python Requirements
-
+# Flask and Web Server
 flask==2.3.3
 flask-cors==4.0.0
 gunicorn==21.2.0
-dnspython==2.4.2
-pandas==2.0.3
 werkzeug==2.3.7
+
+# DNS Resolution for MX records
+dnspython==2.4.2
+
+# Data Processing
+pandas==2.0.3
+
+# Standard Library (no pip install needed):
+# - smtplib (SMTP connections)
+# - socket (network operations)
+# - re (regex patterns)
+# - os (file operations)
+# - email.utils (email parsing)

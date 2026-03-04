@@ -1,0 +1,32 @@
+{
+  "project": ".",
+  "status": "FAIL",
+  "issues": [
+    "version.py: Possible API key/secret",
+    "test_scalarprint.py: Possible API key/secret",
+    "test_regression.py: Possible API key/secret",
+    "test_random.py: Possible API key/secret",
+    "test_randomstate.py: Possible API key/secret",
+    "test_generator_mt19937.py: Possible API key/secret",
+    "mingw32ccompiler.py: Hardcoded token",
+    "misc.py: Hardcoded password",
+    "_version.py: Possible API key/secret",
+    "_version_meson.py: Possible API key/secret",
+    "test_formats.py: Possible API key/secret",
+    "tbtools.py: Hardcoded secret",
+    "tsig.py: Hardcoded secret",
+    "_parser.py: Hardcoded token"
+  ],
+  "warnings": [
+    "pip-audit not installed",
+    "test_sql.py: Potential SQL injection",
+    "sql.py: Potential SQL injection",
+    "ctx.py: Endpoint without input validation",
+    "app.py: No HTTPS configuration",
+    "app.py: No HTTPS configuration"
+  ],
+  "summary": {
+    "critical_issues": 14,
+    "warnings": 6
+  }
+}
