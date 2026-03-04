@@ -1,0 +1,79 @@
+{
+  "name": "email-validator-api",
+  "version": "1.0.0",
+  "description": "Production-ready email validation API with SMTP verification, disposable email detection, and bulk CSV processing",
+  "category": "api",
+  "subcategory": "email",
+  "tags": [
+    "email",
+    "validation",
+    "verification",
+    "smtp",
+    "disposable-email",
+    "api",
+    "rest-api",
+    "python",
+    "flask"
+  ],
+  "author": "gup-hive",
+  "license": "MIT",
+  "repository": "https://github.com/gup-hive/email-validator-api",
+  "homepage": "https://github.com/gup-hive/email-validator-api#readme",
+  "keywords": [
+    "email validation",
+    "email verification",
+    "disposable email detection",
+    "smtp verification",
+    "mx record check",
+    "bulk email validation",
+    "email api"
+  ],
+  "capabilities": {
+    "syntax_validation": true,
+    "domain_verification": true,
+    "smtp_verification": true,
+    "disposable_detection": true,
+    "role_based_detection": true,
+    "bulk_validation": true,
+    "csv_processing": true
+  },
+  "monetization": {
+    "type": "usage-based",
+    "pricing": [
+      {
+        "model": "pay-per-use",
+        "price": 0.001,
+        "unit": "email",
+        "currency": "USD"
+      },
+      {
+        "model": "subscription",
+        "price": 29,
+        "unit": "month",
+        "currency": "USD",
+        "includes": "50,000 emails"
+      }
+    ]
+  },
+  "tech_stack": {
+    "language": "Python",
+    "version": "3.8+",
+    "framework": "Flask",
+    "database": "None (stateless)",
+    "deployment": ["Docker", "Railway", "Vercel"]
+  },
+  "api": {
+    "type": "REST",
+    "authentication": "API Key",
+    "rate_limit": "100 requests/minute",
+    "endpoints": 6
+  },
+  "security": {
+    "input_validation": true,
+    "rate_limiting": true,
+    "https_required": true,
+    "cors_enabled": true
+  },
+  "status": "production-ready",
+  "last_updated": "2026-03-04"
+}
