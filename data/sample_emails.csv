@@ -1,0 +1,11 @@
+email,name,company
+john.doe@example.com,John Doe,Acme Corp
+jane.smith@example.com,Jane Smith,Example Inc
+admin@example.com,Admin,Example Inc
+info@example.com,Information,Example Inc
+test@tempmail.com,Test User,Test Co
+invalid-email,Bad User,Invalid Corp
+user@nonexistent-domain.com,Unknown,Unknown Inc
+support@example.com,Support,Example Inc
+sales@example.com,Sales,Example Inc
+billing@example.com,Billing,Example Inc
