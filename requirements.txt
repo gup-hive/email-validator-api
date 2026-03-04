@@ -1,6 +1,8 @@
+# Vercel Python Requirements
+
 flask==2.3.3
 flask-cors==4.0.0
+gunicorn==21.2.0
 dnspython==2.4.2
 pandas==2.0.3
-python-dotenv==1.0.0
-gunicorn==21.2.0
+werkzeug==2.3.7
