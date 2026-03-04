@@ -1,0 +1,12 @@
+# Render Deployment for Flask Apps
+
+services:
+  - type: web
+    name: email-validator-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9.0
